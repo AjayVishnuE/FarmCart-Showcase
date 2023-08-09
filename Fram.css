@@ -515,7 +515,6 @@ h1 {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
   }
 
   .ABOUT-title {
@@ -525,7 +524,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-top: 0;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 30px;
     margin-bottom: 0px;
   }
@@ -533,13 +532,13 @@ h1 {
   .ABOUT-title>h1 {
     padding: 0;
     color: #0C7478;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: semibold;
     text-align: center;
   }
 
   .About-img {
-    padding-top: 120px;
+    padding-top: 130px;
   }
 
   .ABOUT-circle {
@@ -549,9 +548,9 @@ h1 {
   }
 
   .img1 {
-    width: 100%;
-    height: 500px;
-    margin-top: -480px;
+    width: 80%;
+    height: auto;
+    margin-top: -560px;
   }
 
   .About-playstore {
@@ -582,7 +581,7 @@ h1 {
     font-size: large;
     padding: 0 25px 0 25px;
     width: 100%;
-    text-align: center;
+    text-align: justify;
   }
 
   .imgs {
