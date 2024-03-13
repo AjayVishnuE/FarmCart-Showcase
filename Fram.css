@@ -17,7 +17,10 @@ body {
 .nav {
   height: 100px;
   width: 100%;
-  background-color: #0C7478;
+  background: rgba(54, 2, 122, 0.472);
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   position: fixed;
   z-index: 1;
   padding-right: 10px;
@@ -118,7 +121,7 @@ body {
 
 .playstore {
   margin-top: 20px;
-  height: 200px;
+  height: 110px;
   padding: 0;
 }
 
@@ -155,8 +158,9 @@ body {
   animation-iteration-count: infinite;
   opacity: 2;
   z-index: 0;
-  width: 500px;
-  margin-top: -650px;
+  height: 500px;
+  margin-top: -500px;
+  margin-bottom: 110px;
 }
 
 #WHY-US {
@@ -187,7 +191,7 @@ body {
 .how-wrap-works-para {
   width: 60%;
   text-align: left;
-  padding-right: 12%;
+  padding-right: 10%;
   font-size:x-large;
   color: black;
 }
@@ -234,7 +238,6 @@ h1 {
 }
 
 .FEATURES-img {
-  margin-top: -100px;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -243,7 +246,7 @@ h1 {
 
 .FEATURES-img4 {
   margin-top: 10px;
-  height: 800px;
+  height: 550px;
 }
 
 .FEATURES-list {
@@ -336,6 +339,7 @@ h1 {
   margin-bottom: 10px;
   width: 50%;
   margin-bottom: 12px;
+  list-style-type: none
 }
 
 .CONTACT-right>ul>li>a:hover {
@@ -442,7 +446,8 @@ h1 {
   }
 
   .nav-logo{
-    padding-top: 0px;
+    padding-top: 15px;
+    height: 40px;
     margin-left: 5px;
   }
 
@@ -478,7 +483,7 @@ h1 {
     display: block;
     width: 100%;
     height: 100%;
-    background-color: #0C7478;
+    background-color: #7c35da;
     opacity: .9;
     transition: all 0.3s ease-in;
     overflow: hidden;
